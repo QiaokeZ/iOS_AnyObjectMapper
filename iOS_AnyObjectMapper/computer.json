@@ -1,0 +1,95 @@
+{
+    "cpu": {
+        "name": "Intel Core i9-9900K",
+        "codeName": "kaby Lake",
+        "package": "Socket 1151 LGA",
+        "technology": "14nm",
+        "coreVID": "0.944V",
+        "coreSpeed": "5000.00 MHz",
+        "multiplier": "x 50.0(8 - 50)",
+        "busSpeed": "100.00 MHz",
+        "ratedFSB": "",
+        "cores": 8,
+        "threads": 16,
+        "price": 3949
+    },
+    "memory": {
+        "name": "金士顿(Kingston)",
+        "type": "288-Pin DDR4 UDIMM",
+        "size": "64GB",
+        "dramFrequency": "DDR4 3200",
+        "price": 2499
+    },
+    "graphics": {
+        "name": "蓝宝石 SAPPHIRE RX 5700 XT",
+        "gpu": "AMD",
+        "technology": "7nm",
+        "price": 3199
+    },
+    "mainboard": {
+        "name": "技嘉 GIGABYTE",
+        "type": "Intel平台",
+        "model": "Z390 GAMING X",
+        "price": 1298
+    },
+    "radiator": {
+        "name": "猫头鹰",
+        "coolingMode": "风冷",
+        "price": 699
+    },
+    "hardDisk": {
+        "name": "三星（SAMSUNG）",
+        "series": "970 EVO 系列",
+        "model": "MZ-V7E500BW",
+        "size": "1T",
+        "price": 1399
+    },
+    "networkAdapter": {
+        "name": "奋威（fenvi）FV-T919",
+        "type": "双频网卡",
+        "model": "FV-HB1200",
+        "interface": "PCI-E接口",
+        "price": 238
+    },
+    "monitor": {
+        "name": "戴尔 DELL",
+        "model": "U2720QM",
+        "resolution": "3850x2160",
+        "price": 4199
+    },
+    "keyboard": {
+        "name": "Apple",
+        "type": "无线键盘",
+        "price": 699
+    },
+    "mouse": {
+        "name": "Apple",
+        "type": "无线键盘",
+        "price": 539
+    },
+    "systems": [
+        {
+            "name": "macOS",
+            "version": "10.15.4"
+        },
+        {
+            "name": "windows8",
+            "version": "8"
+        },
+        {
+            "name": "windows10",
+            "version": "10"
+        },
+        {
+            "name": "CentOS",
+            "version": "6.5"
+        },
+        {
+            "name": "Ubuntu",
+            "version": "4.8.2"
+        }
+    ],
+    "name": "顶级硬件配置",
+    "id": "EB17AA00-51C4-55BC-B863-8040ADA8DJ46",
+    "desciption": "CPU:i9-9900K, 内存条:金士顿64GB, 显卡:蓝宝石RX5700XT\n主板:技嘉Z390, 硬盘:三星970EVO 1T, 散热器:猫头鹰"
+}
