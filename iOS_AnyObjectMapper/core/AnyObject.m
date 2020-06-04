@@ -8,11 +8,6 @@
 
 #import "AnyObject.h"
 
-@interface AnyObject(){
-    id _anyValue;
-}
-@end
-
 @implementation AnyObject
 
 + (instancetype)objectWithRawValue:(id)rawValue anyValue:(id)anyValue{
@@ -55,8 +50,8 @@
     return nil;
 }
 
-- (AnyObject *)anyValue{
-    if([_anyValue isKindOfClass:AnyObject.class]){
+- (id)get:(Class)cls{
+    if ([_anyValue isKindOfClass:cls]){
         return _anyValue;
     }
     return nil;

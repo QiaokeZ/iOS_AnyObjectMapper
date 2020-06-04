@@ -16,12 +16,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithRawValue:(id)rawValue anyValue:(id)anyValue;
 
 @property(readonly, nullable, nonatomic, strong) id rawValue;
-@property(readonly, nullable, nonatomic, strong) AnyObject *anyValue;
-
+@property(readonly, nullable, nonatomic, strong) id anyValue;
 @property(readonly, nullable, nonatomic, strong) NSNumber *numberValue;
 @property(readonly, nullable, nonatomic, strong) NSString *stringValue;
 @property(readonly, nullable, nonatomic, strong) NSArray *arrayValue;
 @property(readonly, nullable, nonatomic, strong) NSDictionary *dictionaryValue;
+
+- (id)get:(Class)cls;
 
 @end
 
